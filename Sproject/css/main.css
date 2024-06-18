@@ -1,0 +1,180 @@
+.Login{
+	display: flex;
+	justify-content: center;
+	height: auto;
+	width: auto;
+}
+.Login form{
+	height: auto;
+	width: 500px;
+	background-color: #333;
+	padding: 10px 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #fff;
+}
+
+.Login form p,h1{
+	text-align: center;
+}
+.Login form label{
+	width: 100%;
+	font-family: 'Poppins';
+}
+.Login form input{
+	width: 100%;
+	height: 30px;
+	margin-top: 5px;
+}
+.Login form .btn{
+	font-size: 15px;
+	width: 100%;
+	border-radius: 8px;
+	margin-bottom: 15px;
+	color: crimson;
+	height: 40px;
+	cursor: pointer;
+	font-size: 20px;
+}
+
+.Login form p a{
+	color: crimson;
+	text-decoration: none;
+}
+.Login form .error-msg{
+	margin: 10px 0;
+	display: block;
+	background: crimson;
+	color: #fff;
+	border-radius: 5px;
+	font-size: 15px;
+	padding: 5px;
+}
+
+
+
+												/*user page cs*/
+
+/*.admin-container{
+	min-height: 100vh;*/
+	/*display: flex;
+	align-items: center; */
+	/*justify-content: center;
+	padding: 20px; 
+	padding-bottom: 60px;
+}*/
+/*.admin-container .admin-content{
+	text-align: center;
+}
+.admin-container .admin-content h3{
+	font-size: 30px;
+	color: #333;
+}
+.admin-container .admin-content h3 span{
+	background-color: crimson;
+	color: #fff;
+	border-radius: 5px;
+	padding: 0 15px;
+}
+.admin-container .admin-content h1{
+	font-size: 50px;
+	color: #333;
+}
+.admin-container .admin-content h1 span{
+	color: crimson;
+}
+.admin-container .admin-content p{
+	font-size: 25px;
+	margin-bottom: 20px;
+}
+.admin-container .admin-content .btn{
+	display: inline-block;
+	padding: 10px 30px;
+	font-size: 20px;
+	background: #333;
+	color: #fff;
+	margin: 0 5px;
+	text-transform: capitalize;
+}
+.admin-container .admin-content .btn:hover{
+	background: crimson;
+}*/
+
+/*admin navbar css*/
+.ad-navbar .container-fluid .collapse .navbar-nav li h2{
+	color: #fff;
+} 
+.ad-navbar .container-fluid .collapse .navbar-nav li h3{
+	font-size: 20px;
+	color: #fff;
+}
+.ad-navbar .container-fluid .collapse .navbar-nav li h3 span{
+	font-size: 20px;
+	color: crimson;
+}
+.ad-navbar .container-fluid .collapse .navbar-nav li .nav-link-btn{
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 10px;
+	background: crimson;
+	border-radius: 5px;
+	margin-left: 10px;
+}
+
+
+
+/*nabar css*/
+.navbar .container-fluid .collapse .navbar-nav li h3{
+	font-size: 20px;
+	color: #fff;
+}
+.navbar .container-fluid .collapse .navbar-nav li h3 span{
+	font-size: 20px;
+	color: crimson;
+}
+.navbar .container-fluid .collapse .navbar-nav li .nav-link-btn{
+	color: crimson;
+	text-decoration: none;
+	padding: 5px 10px;
+	border: 1px solid crimson;
+	border-radius: 40px;
+	margin-left: 30px;
+}
+.navbar .container-fluid .collapse .navbar-nav li .nav-link-btn:hover{
+/*	text-decoration: underline;*/
+	background: crimson;
+	color: #212529;
+}
+
+
+/*admin css*/
+.admin-body{
+	display: flex; 
+	justify-content: center;
+	margin-top: 5px;
+}
+.admin-body a{
+	color: #fff;
+	text-decoration: none;
+	margin: 5px;
+	padding: 5px 15px;
+	border-radius: 5px;
+	font-size: 20px;
+	background: crimson;
+}
+.admin-body a:hover{
+	text-decoration: underline;
+}
+
+.backto{
+	color: #212529;
+	background: white;
+	text-decoration: none;
+	border: 1px solid white;
+	padding: 3px 5px;
+	border-radius: 8px;
+}
+
+
+
+
+
